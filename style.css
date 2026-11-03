@@ -12,4 +12,5 @@
 .catalog-card small{font:10px 'DM Mono',monospace;line-height:1.4}
 @media(max-width:750px){.title-card{width:min(85vw,330px)}.catalog-card{min-height:150px}}
 .back-btn span{margin:0 8px 0 0}
+.result-actions{display:flex;align-items:center;gap:16px;flex-wrap:wrap}.listen-btn{display:inline-block;padding:17px 22px;background:var(--ink);color:var(--yellow);border:1px solid var(--ink);font:500 13px inherit;text-decoration:none;transition:.2s}.listen-btn:hover{background:var(--yellow);color:var(--ink);transform:translate(3px,-3px);box-shadow:3px 3px var(--ink)}
 .hero h1 em{padding-right:.2em}
