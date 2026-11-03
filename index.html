@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SONG MATCH — DISCOVER</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Gowun+Batang:wght@400;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="grain"></div>
+  <header class="nav">
+    <a href="#top" class="brand"><span class="brand-dot"></span>SONG MATCH</a>
+    <span class="nav-note">CITY YOUTH MUSIC CENTER · DISCOVER BOOTH</span>
+    <a href="#workroom" class="nav-link">뮤지션의 작업실 <span>↗</span></a>
+  </header>
+
+  <main id="top">
+    <section class="hero section-pad">
+      <div class="hero-copy">
+        <p class="eyebrow"><span>01</span> YOUR NEXT SOUND</p>
+        <h1>오늘의 나는<br><em>어떤 음악</em>일까?</h1>
+        <p class="hero-text">취향의 결을 따라가면, 아직 만나지 못한<br>청소년 뮤지션의 앨범이 기다리고 있어요.</p>
+        <button class="primary-btn" id="startBtn">나의 음악 취향 찾기 <span>→</span></button>
+      </div>
+      <div class="hero-art" aria-label="음악을 듣는 모습을 표현한 그래픽">
+        <div class="sun"></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="disc disc-back"></div><div class="disc disc-main"><span>SONG<br>MATCH</span></div>
+        <div class="asterisk">✳</div><div class="mini-label">LISTEN<br>WITH<br>YOUR HEART</div>
+      </div>
+      <div class="side-scroll">SCROLL TO EXPLORE <span>↓</span></div>
+    </section>
+
+    <section class="intro section-pad" id="discover">
+      <div class="section-heading"><p class="eyebrow"><span>02</span> DISCOVER</p><h2>앨범을 듣기 전,<br><em>마음부터 열어두기.</em></h2></div>
+      <div class="intro-grid">
+        <p>이곳은 시립청소년음악센터 청소년 뮤지션들의 창작 세계를 만나는 작은 입구입니다. 네 개의 질문에 답하고, 지금의 나와 가장 닮은 앨범을 발견해보세요.</p>
+        <div class="hand-note">no right<br>answers, just<br>your vibe <span>♡</span></div>
+      </div>
+    </section>
+
+    <section class="quiz-wrap" id="quiz">
+      <div class="quiz-card">
+        <div class="quiz-top"><span id="questionCount">QUESTION 01 / 04</span><div class="progress"><i id="progressBar"></i></div></div>
+        <h2 id="questionTitle">지금 가장 끌리는 장면은?</h2>
+        <div class="answers" id="answers"></div>
+        <div class="quiz-bottom"><button class="text-btn back-btn" id="backBtn" disabled><span>←</span> 이전 질문</button><span id="questionHint">선지를 고르면 다음 질문으로 넘어가요.</span></div>
+      </div>
+    </section>
+
+    <section class="result section-pad" id="result" hidden>
+      <p class="eyebrow"><span>03</span> YOUR MATCH</p>
+      <div class="result-layout"><div><p class="result-kicker">당신에게 도착한 추천 앨범</p><h2 id="resultTitle">—</h2><p id="resultArtist" class="result-artist">—</p><p id="resultDesc" class="result-desc"></p><div id="resultTags" class="tags"></div><button class="outline-btn" id="restartBtn">다시 찾아보기 ↻</button></div><div class="title-card"><span>SONG MATCH<br>RECOMMENDS</span><strong id="coverName">—</strong><small id="coverCode">YOUTH MUSIC CENTER</small></div></div>
+    </section>
+
+    <section class="workroom section-pad" id="workroom">
+      <div class="section-heading"><p class="eyebrow"><span>04</span> THE WORKROOM</p><h2>음악은 어떻게<br><em>태어났을까?</em></h2></div>
+      <div class="work-grid" id="catalogGrid"></div>
+    </section>
+  </main>
+  <footer><span>SONG MATCH</span><span>청소년의 음악을 듣는 새로운 방법</span><span>© 2024 CITY YOUTH MUSIC CENTER</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
