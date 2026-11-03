@@ -12,3 +12,4 @@
 .catalog-card small{font:10px 'DM Mono',monospace;line-height:1.4}
 @media(max-width:750px){.title-card{width:min(85vw,330px)}.catalog-card{min-height:150px}}
 .back-btn span{margin:0 8px 0 0}
+.hero h1 em{padding-right:.2em}
