@@ -22,3 +22,5 @@
 .answer:hover{background:var(--blue);color:var(--ink);border-color:var(--ink)}
 /* Official SORIZIEUM logo */
 .brand-logo{display:block;width:min(200px,42vw);height:auto}
+/* Keep the center navigation copy centered independently of logo width */
+.nav{position:relative}.nav-note{position:absolute;left:50%;transform:translateX(-50%);white-space:nowrap}
