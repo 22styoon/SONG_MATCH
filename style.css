@@ -20,3 +20,5 @@
 /* Answer states */
 .answer{background:var(--ink);color:var(--cream);border-color:var(--ink)}
 .answer:hover{background:var(--blue);color:var(--ink);border-color:var(--ink)}
+/* Official SORIZIEUM logo */
+.brand-logo{display:block;width:min(200px,42vw);height:auto}
