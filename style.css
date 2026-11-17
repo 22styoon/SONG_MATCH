@@ -25,7 +25,7 @@
 /* Recolored circles in the top artwork */
 .hero-art .sun{background:var(--ivory)!important}
 .hero-art .disc-back{background:var(--lavender)!important}
-.hero-art .disc-main{background:var(--navy)!important}
+.disc.disc-main{background:var(--navy)!important}
 /* Preserve the original asterisk as a text symbol on every device */
 html,body{zoom:1}
 .hero-art .asterisk{width:auto;height:auto;background:none;font-family:"Segoe UI Symbol","Noto Sans Symbols 2","Arial Unicode MS",sans-serif;font-variant-emoji:text;font-size:70px;line-height:1;color:var(--navy)}
