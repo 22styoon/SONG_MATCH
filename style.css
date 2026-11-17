@@ -23,11 +23,12 @@
 /* Additional palette colors */
 :root{--orange:#F66002;--coral:#f69cab;--navy:#2b347a;--ivory:#fdf0cd;--lavender:#a9add7}
 /* Recolored circles in the top artwork */
-.hero-art .sun{background:var(--ivory)}
-.hero-art .disc-back{background:var(--lavender)}
-.hero-art .disc-main{background:var(--navy)}
-/* Use CSS geometry instead of an emoji so the asterisk is identical on mobile */
-.hero-art .asterisk{width:70px;height:70px;font-size:0;background:linear-gradient(45deg,transparent 47%,var(--navy) 48%,var(--navy) 52%,transparent 53%),linear-gradient(-45deg,transparent 47%,var(--navy) 48%,var(--navy) 52%,transparent 53%),linear-gradient(90deg,transparent 47%,var(--navy) 48%,var(--navy) 52%,transparent 53%),linear-gradient(0deg,transparent 47%,var(--navy) 48%,var(--navy) 52%,transparent 53%)}
+.hero-art .sun{background:var(--ivory)!important}
+.hero-art .disc-back{background:var(--lavender)!important}
+.hero-art .disc-main{background:var(--navy)!important}
+/* Preserve the original asterisk as a text symbol on every device */
+html,body{zoom:1}
+.hero-art .asterisk{width:auto;height:auto;background:none;font-family:"Segoe UI Symbol","Noto Sans Symbols 2","Arial Unicode MS",sans-serif;font-variant-emoji:text;font-size:70px;line-height:1;color:var(--navy)}
 /* Official SORIZIEUM logo */
 .brand-logo{display:block;width:min(160px,36vw);height:auto}
 /* Keep the center navigation copy centered independently of logo width */
