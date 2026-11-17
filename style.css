@@ -23,7 +23,7 @@
 /* Additional palette colors */
 :root{--orange:#F66002;--coral:#f69cab;--navy:#2b347a;--ivory:#fdf0cd;--lavender:#a9add7}
 /* Recolored circles in the top artwork */
-.hero-art .sun{background:var(--ivory)!important}
+.sun{background:var(--ivory)}
 .hero-art .disc-back{background:var(--lavender)!important}
 .disc.disc-main{background:var(--navy)!important}
 /* Preserve the original asterisk as a text symbol on every device */
