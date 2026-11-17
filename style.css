@@ -23,10 +23,10 @@
 /* Additional palette colors */
 :root{--orange:#F66002;--coral:#f69cab;--navy:#2b347a;--ivory:#fdf0cd;--lavender:#a9add7}
 /* Recolored circles in the top artwork */
-.hero-art .sun{background:var(--pink)!important}
-.hero-art .disc-back{background:var(--lavender)!important}
-.disc.disc-main{background:var(--navy)!important}
-.disc.disc-main{box-shadow:14px 14px 0 var(--ivory)!important}
+.hero-art .sun{background:var(--pink)}
+.hero-art .disc-back{background:var(--lavender)}
+.disc.disc-main{background:var(--navy)}
+.disc.disc-main{box-shadow:14px 14px 0 var(--ivory)}
 /* Preserve the original asterisk as a text symbol on every device */
 html,body{zoom:1}
 .hero-art .asterisk{width:auto;height:auto;background:none;font-family:"Segoe UI Symbol","Noto Sans Symbols 2","Arial Unicode MS",sans-serif;font-variant-emoji:text;font-size:70px;line-height:1;color:var(--navy)}
