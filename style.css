@@ -20,6 +20,14 @@
 /* Answer states */
 .answer{background:var(--ink);color:var(--cream);border-color:var(--ink)}
 .answer:hover{background:var(--blue);color:var(--ink);border-color:var(--ink)}
+/* Additional palette colors */
+:root{--orange:#F66002;--coral:#f69cab;--navy:#2b347a;--ivory:#fdf0cd;--lavender:#a9add7}
+/* Recolored circles in the top artwork */
+.hero-art .sun{background:var(--ivory)}
+.hero-art .disc-back{background:var(--lavender)}
+.hero-art .disc-main{background:var(--navy)}
+/* Use CSS geometry instead of an emoji so the asterisk is identical on mobile */
+.hero-art .asterisk{width:70px;height:70px;font-size:0;background:linear-gradient(45deg,transparent 47%,var(--navy) 48%,var(--navy) 52%,transparent 53%),linear-gradient(-45deg,transparent 47%,var(--navy) 48%,var(--navy) 52%,transparent 53%),linear-gradient(90deg,transparent 47%,var(--navy) 48%,var(--navy) 52%,transparent 53%),linear-gradient(0deg,transparent 47%,var(--navy) 48%,var(--navy) 52%,transparent 53%)}
 /* Official SORIZIEUM logo */
 .brand-logo{display:block;width:min(160px,36vw);height:auto}
 /* Keep the center navigation copy centered independently of logo width */
